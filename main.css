@@ -1,0 +1,506 @@
+.container {
+    width: 100%;
+    width: 129.5rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    position: relative;
+    /* importante para o mobile */
+
+    /*-----inspection dev-----*/
+    border-left: 1px solid blue;
+    border-right: 1px solid blue;
+    z-index: 1000;
+    /*-----inspection dev-----*/
+}
+
+.s-info-bottom {
+    padding: 8px 80px;
+    border-bottom: 1px solid var(--neutral-100)
+}
+
+.suporte-ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.suporte-ul a {
+    font-size: 1.4rem;
+    font-weight: var(--font-regular);
+    color: var(--neutral-900);
+}
+
+.suporte {
+    display: flex;
+    align-items: center;
+}
+
+.suporte .icon {
+    margin-right: 1.2rem;
+}
+
+.separacao {
+    margin-left: 2.7rem;
+    margin-right: 2.7rem;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 16px 0;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+header nav ul {
+    display: flex;
+    gap: 3.2rem;
+    margin-right: 23.1rem;
+}
+
+header nav ul li a {
+    color: var(--neutral-900);
+    font-family: var(--font-primary);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    transition: .3s ease;
+}
+
+header nav ul li a:hover {
+    color: var(--vermelho-500);
+    transition: .3s ease;
+}
+
+/*-----s-hero------*/
+.s-hero {
+    background-image: url(/imgs/header-back.svg);
+    height: 686px;
+}
+
+.s-hero .box-content {
+    width: 100%;
+    padding-top: 6.4rem;
+}
+
+.s-hero .box-content h1 {
+    width: 100%;
+    max-width: 60.1rem;
+    line-height: 120%;
+    color: #fff;
+    margin-bottom: 1.6rem;
+}
+
+.s-hero .box-content h1 span {
+    color: var(--vermelho-200);
+    font-size: 5.6rem;
+}
+
+.s-hero .box-content p {
+    font-family: var(--font-primary);
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    max-width: 47.1rem;
+    color: rgba(255, 255, 255, 0.80);
+    margin-top: 1.6rem;
+    margin-bottom: 3.6rem;
+}
+
+/*-----button-s-hero------*/
+.box-btn,
+.btn-primary {
+    justify-content: center;
+    align-items: center;
+}
+
+.box-btn {
+    display: flex;
+    width: 240px;
+    height: 52px;
+    border-radius: 4px;
+    border: 1px solid #161D28;
+    background: var(--Azul-800, #020A18);
+}
+
+.btn-primary {
+    height: 40px;
+    padding: 0px 49.85px;
+    border-radius: 2px;
+    color: #fff;
+    background: #CD001A;
+}
+
+.btn-primary:hover {
+    background-color: var(--vermelho-700);
+    transition: .3s ease;
+}
+
+/*-----branding-s-hero------*/
+.box-branding {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    position: absolute;
+    top: 541px;
+    opacity: 50%;
+}
+
+.box-branding p {
+    color: #FFF;
+    text-align: center;
+    font-family: Satoshi;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.branding-content {
+    display: flex;
+    gap: 40px;
+}
+
+.branding {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 124px;
+}
+
+.branding img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*------s-hero2-----*/
+
+.s-hero2 {
+    width: 100%;
+    height: 780px;
+    background: var(--Azul-25, #F3F4F6);
+    position: relative;
+}
+
+.box-content-info {
+    padding-top: 120px;
+    width: 657px;
+}
+
+.box-content-info h2 {
+    color: var(--Neutrals-900, #17181A);
+    font-family: Satoshi;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.box-content-info p {
+    width: 425px;
+    color: var(--Neutrals-700, #393C42);
+    font-family: Satoshi;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    margin-top: 1.6rem;
+    margin-bottom: 3.2rem;
+}
+
+.button-solution {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.button-solution button {
+    color: var(--Vermelho-500, #CD001A);
+    font-family: Satoshi;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+.button-solution img {
+    width: 24px;
+    height: 24px;
+}
+
+.box-content-info2 {
+    padding-left: 38.2rem;
+    padding-top: 11.1rem;
+}
+
+.box-content-info2 .title {
+    color: var(--Neutrals-500, #5E636E);
+    font-family: Satoshi;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    text-transform: uppercase;
+    margin-bottom: 4rem;
+}
+
+.box-content-info2 p {
+    width: 292px;
+    color: var(--Neutrals-900, #17181A);
+    font-family: Satoshi;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.vetor-bottom {
+    position: absolute;
+    left: 32.2rem;
+    top: 52.9rem;
+}
+
+#vetor-alpha-line {
+    position: absolute;
+    bottom: 5rem;
+}
+
+.box-machine {
+    position: absolute;
+    width: 44.8rem;
+    height: 59.1rem;
+    right: 0;
+    top: 12rem;
+}
+
+/*------s-hero2-----*/
+
+.s-hero3 {
+    width: 100%;
+    position: relative;
+}
+
+.s-hero3 .background {
+    position: absolute;
+    width: 1038px;
+    height: 1108px;
+    right: 0;
+    opacity: 50%;
+    margin-bottom: 15.5rem;
+}
+
+.vetor16 {
+    position: absolute;
+    left: 0;
+}
+
+.box-text-content h2 {
+    color: var(--Neutrals-900, #17181A);
+    font-family: Satoshi;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    padding-top: 10.8rem;
+}
+
+.box-text-content span {
+    color: #CD001A;
+}
+
+.box-content1 h5,
+.box-content2 h5,
+.box-content3 h5 {
+    color: var(--Neutrals-500, #5E636E);
+    font-family: Satoshi;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    padding-top: 10rem;
+}
+
+.box-content2 p {
+    width: 350px;
+}
+
+.box-content1 p,
+.box-content2 p,
+.box-content3 p {
+    color: var(--Neutrals-900, #17181A);
+    font-family: Satoshi;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    margin-top: .8rem;
+}
+
+/*---------------shero3-----------------*/
+/*---------------shero4-----------------*/
+
+.s-hero4 {
+    width: 100%;
+    position: relative;
+}
+
+.s-hero4 .background {
+    position: absolute;
+    top: 12rem;
+}
+
+.s-hero4 .box-text-contentS4 {
+    position: absolute;
+    width: 41.1rem;
+    left: 0;
+    top: 13rem;
+}
+
+.box-text-contentS4 span {
+    color: #CD001A;
+}
+
+.box-content {
+    width: 43rem;
+}
+
+.box-text-h2 {
+    width: 411px;
+}
+
+.box-segmented-item {
+    position: absolute;
+    right: 3.2rem;
+    top: 37.8rem;
+    width: 58.6rem;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/*------------button slider--------------*/
+.box-segmented-item .box-button {
+    display: flex;
+    padding: 4px;
+    align-items: center;
+    border-radius: 100px;
+    border: 1px solid #D10922;
+    background: var(--Neutrals-50, #FAFAFA);
+    margin-bottom: 3.6rem;
+}
+
+.box-button .box-btn-1 {
+    display: flex;
+    padding: 6px 16px;
+    align-items: center;
+    gap: 6px;
+    border-radius: 100px;
+    border: 1px solid var(--Vermelho-50, #F5CCD1);
+    background: #CD001A;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.08);
+}
+
+.box-btn-1 button {
+    color: #FFF;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.box-button .box-btn-2 {
+    display: flex;
+    padding: 6px 16px;
+    align-items: center;
+    gap: 6px;
+    border-radius: 100px;
+    background: rgba(255, 255, 255, 0.00);
+}
+
+.box-btn-2 button {
+    color: var(--color-neutral-500, #767676);
+    font-family: Satoshi;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+/*------------button slider---------------*/
+
+.box-content-slider p {
+    color: var(--Neutrals-500, #5E636E);
+    font-family: Satoshi;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    text-transform: uppercase;
+    margin-bottom: .8rem;
+}
+
+.box-content-slider h2 {
+    color: var(--Neutrals-900, #17181A);
+    font-family: Satoshi;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 2.4rem;
+}
+
+.list-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 3.2rem;
+}
+
+.list-content .item1,
+.list-content .item2,
+.list-content .item3 {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.list-content .item1 p,
+.list-content .item2 p,
+.list-content .item3 p {
+    color: var(--Neutrals-700, #393C42);
+    font-family: Satoshi;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.box-content-Gaotek-OTDR {
+    position: absolute;
+    top: 94.6rem;
+    width: 1280px;
+    height: 259px;
+    background-image: url(/imgs/dobra-beneficios.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 40px;
+}
+
