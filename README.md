@@ -1,2 +1,2 @@
-# Projeto Alpha - Auclan Design 
- Alpha - Aclan Design 
+# alpha-front
+Desenvolvimento Front-end Alpha
